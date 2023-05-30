@@ -1,0 +1,42 @@
+.body{
+    max-width: 500px;
+    padding: 10px 20px 5px 20px;
+    margin: 0 auto 30px auto;
+    background-color: aliceblue;
+    border: 3px solid #ccc;
+    display: flex;
+}
+.post-avatar{
+    padding-right: 20px;
+    img {
+        max-width: 100px;
+        max-height: 100px;
+        border-radius: 50%;
+    }
+}
+h2{
+    margin-bottom: 10px;
+}
+
+.post-text{
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+p{
+    font-style: italic;
+}
+
+.picture{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    }
+}

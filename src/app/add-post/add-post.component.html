@@ -1,0 +1,16 @@
+<div class="body">
+    <input type="text" placeholder="Title"
+      [value]="nameInputValue"
+     (input)="onName($event) "#name>
+    <textarea type="text" maxlength="50" placeholder="Text"
+    [value]="textInputValue" 
+    (input)="onText($event)" #text></textarea>
+    <input type="url" placeholder="Avatar URL"
+    [value]="avatarInputValue"
+    (input)="onAvatar($event)" #avatar>
+    <button type="button" (click)="addNewPost(name.value , text.value , avatar.value)"
+    >Add post</button>
+    <button type="button" (click)="deletePost(name.value , text.value , avatar.value)"
+    >Remove User</button>
+    
+    </div>  
